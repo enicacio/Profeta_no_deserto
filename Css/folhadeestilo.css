@@ -1,0 +1,34 @@
+*{magin: 0;padding:0;} /* inicia todos os elementos com margin 0 e padding 1 */
+
+/* Propriedades do topo */
+header{width: 100%; height: 130px; background-color: #fff; position: relative; top: 0; }
+
+/* Propriedades do logo */
+.logo{width: 250px; height: auto; }
+.logo img{width: 95%; margin-left: 10%;} 
+
+/* Propriedades do Menu */
+nav justify-content-end {right: 30px; bottom: 0px;}
+a:hover, a:focus {
+    color:darkgoldenrod !important;
+    text-decoration: underline !important;
+}
+
+/* Propriedades da imagem principal-banner */
+#banner img{width: 100%; margin-bottom: 0;}
+#ministerios img{width: 100%; margin-bottom: 0;}
+#proposito img{width: 100%; margin-bottom: 0;}
+#contato img{width: 100%; margin-bottom: 0;}
+#banner_footer {
+    width: 70%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+/* Box-Sizing CSS */
+.selector-for-some-widget {
+	box-sizing: content-box;}
+
+/* Propriedades do logo whatsapp */
+.apiwhats {width: 200px; height: auto; }
+.apiwhats img {width: 100%; margin-left: 10%;}
